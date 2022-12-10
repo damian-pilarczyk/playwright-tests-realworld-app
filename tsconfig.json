@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "types": ["node"],
+    "lib": ["ES2020", "dom"],
+    "paths": {
+      "@actions/*": ["actions/*"],
+      "@components/*": ["ui-components/*"],
+      "@data/*": ["data/*"],
+      "@enums/*": ["enums/*"],
+      "@locators/*": ["locators/*"],
+      "@models/*": ["models/*"],
+      "@utilities/*": ["utilities/*"],
+      "@verifications/*": ["verifications/*"],
+      "@waits/*": ["waits/*"]
+    }
+  },
+  "include": ["**/*.ts"]
+}
